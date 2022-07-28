@@ -67,5 +67,7 @@ Endpoint: https://api.artic.edu/api/v1/artworks
 
 - ### [EMP Team Expectations Google Doc](https://docs.google.com/document/d/1bGwMuPmrwVGNWlPxbOGGk54fBWZk22zdcrrTcyDf9JA/edit)
 - ### [Whimsical Flowchart](https://whimsical.com/emp-project-8-virtual-art-institute-of-chicago-XUUhQQoKXsa77UkSPqMy4F)
+- ### [Back End Project Board](https://github.com/mraznick/emp-back-end/projects?type=new)
+- ### [Front End Project Board](https://github.com/mraznick/emp-front-end/projects?type=new)
 
 ---
