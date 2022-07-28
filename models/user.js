@@ -7,6 +7,6 @@ const User = new Schema({
     "Full Name": { type: String },
     "Username": { type: String },
     "Password": { type: String }
-})
+}, {timestamps: true})
 
 export default mongoose.model("Users", User);

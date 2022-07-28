@@ -19,7 +19,8 @@
   "homepage": "https://github.com/mraznick/emp-back-end#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "mongoose": "^6.5.0"
+    "mongoose": "^6.5.0",
+    "node-fetch": "^3.2.9"
   },
   "type": "module"
 }
