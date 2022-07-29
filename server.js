@@ -8,11 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.send("Home Page");
-});
-
-app.use("/api", routes);
+app.use("/", routes);
 
 db.on("connected", () => {
     console.clear();
