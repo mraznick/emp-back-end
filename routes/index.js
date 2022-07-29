@@ -5,6 +5,7 @@ import picturesRoutes from "./pictures.js";
 
 const router = Router();
 
+
 router.get("/", (req, res) => res.send("Api Root"));
 
 router.use("/", usersRoutes);
