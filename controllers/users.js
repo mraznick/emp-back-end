@@ -48,6 +48,13 @@ export const getUserByEmail = async (req, res) => {
 
 export const createUser = async (req, res) => {
     try {
+        const { Email, Full_Name, Username, Password } = req.body;
+
+        if(!Email || !Full_Name|| !Username || !Password )
+        {
+            return res.status(400).json({ message: "Missing required fields" });
+        }
+
         const user = new User(req.body)
 
         await user.save();
